@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     tools{
-    maven 'MavenForTomcatSrv'
+    maven 'tomcat-jenkins'
     }
 
     stages {
